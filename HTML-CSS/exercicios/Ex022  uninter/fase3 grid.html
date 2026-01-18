@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+        .box {
+            font-size: 20px;
+            border: 2px solid black;
+            padding: 10px;
+            color: rgba(3, 1, 1, 0.938);
+            background-color: aqua;
+            
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(5,100px)  00px 50px 80px 200px;
+            grid-template-rows:  50px 100px 100px 100px;
+            gap: 10px;
+            
+
+
+        }
+        body {
+            background-image: -moz-radial-gradient(to left blue);
+            background-color: aquamarine;
+        }
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+
+
+
+    </div>
+    
+</body>
+</html>

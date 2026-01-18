@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+
+body {
+    
+
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aqua;
+}
+
+h1 {
+    text-align: center;
+    background-color: blue;
+    color: chartreuse;
+}
+h2 {
+    text-decoration: dashed;
+    background-color: blue;
+    color: chocolate;
+    text-align: center;
+}
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aqua;
+}
