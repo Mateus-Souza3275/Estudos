@@ -1,0 +1,449 @@
+      Html 5
+📦 1. Tags de Estrutura
+Usadas para estruturar a página.
+
+Tag	Função
+<html>	Define o documento HTML
+<head>	Contém metadados (título, links)
+<body>	Contém o conteúdo visível da página
+
+🧱 2. Tags de Seção / Layout
+Organizam o conteúdo da página.
+
+Tag	Função
+
+<header>	Cabeçalho da página ou seção
+<nav>	        Menu de navegação
+<main>	        Conteúdo principal da página
+<section>	Seção de conteúdo
+<article>	Conteúdo independente (como posts)
+<aside>	        Conteúdo lateral (como barras laterais)
+<footer>	Rodapé da página
+<div>	        Container genérico para agrupar elementos
+
+✍️ 3. Tags de Texto
+Controlam títulos, parágrafos, listas, etc.
+
+Tag	Função
+
+<h1>–<h6>	Títulos (do maior para o menor)
+<p>	Parágrafo
+<br>	Quebra de linha
+<hr>	Linha horizontal/divisão
+<blockquote>	Citação longa
+
+🔤 4. Tags de Formatação de Texto
+Alteram o estilo do texto.
+
+Tag	Função
+<strong>	Negrito semântico (importante)
+<b>	Negrito visual
+<em>	Itálico semântico (ênfase)
+<i>	Itálico visual
+<u>	Sublinhado
+<mark>	Texto marcado
+<small>	Texto menor
+
+🔗 5. Tags de Links e Mídia
+Inserem links, imagens, áudio, etc.
+
+Tag	Função
+<a>	Link
+<img>	Imagem
+<audio>	Áudio
+<video>	Vídeo
+<source>	Fonte de mídia
+<iframe>	Conteúdo externo incorporado
+
+📋 6. Tags de Listas
+Criam listas ordenadas e não ordenadas.
+
+Tag	Função
+<ul>	Lista não ordenada
+<ol>	Lista ordenada
+<li>	Item de lista
+<dl>	Lista de definição
+<dt>	Termo da definição
+<dd>	Descrição da definição
+
+📑 7. Tags de Formulário
+Criam e organizam formulários.
+
+Tag	Função
+<form>	Define o formulário
+<input>	Campo de entrada
+<label>	Rótulo para campo
+<textarea>	Área de texto
+<button>	Botão
+<select>	Menu suspenso
+<option>	Opção dentro do select
+<fieldset>	Agrupa elementos
+<legend>	Título do grupo (fieldset)
+
+⚙️ 8. Tags de Script e Estilo
+Para incluir CSS e JavaScript.
+
+Tag	Função
+<style>	CSS embutido
+<link>	Link para CSS externo
+<script>	Código JavaScript
+Material complementar visual studio code.
+
+Começo de tag "!" para abrir tags do html sem precisar abrir colchete e escrever
+
+escrever sempre pt-br na lang "linguagem"
+Tags:
+
+Modelos de bordas:
+
+border-top-left-radius: 0px;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 0px;
+
+Title:Titulo do site fica em la em cima no vageador(nome do site praticamente)
+
+H1 subtitulo ou titulo inicial.
+
+<p> paragrafo para escrever qualquer mensagem sua.
+
+<Br>quebra de paragrafos,volta ao começo do paragráfo.
+
+&lt e &gt  sinal de < e >.
+
+<hr> Linha continua ou separação de linhas.
+
+form: formulário method GET action = onde vai o conteudo a "pasta"
+
+GET: Manda para a pasta com as informaçoes no link de acesso em cima.
+
+POST: Manda para a pasta as informaçoes sem mostar no link de acesso.
+
+Input= entrada de dados tipo=type (text) name= (nome) value
+
+Text: do input type é onde se inscreve o nome etc de uma pergunta ou nome da pessoa em um site.
+
+Email:É onde se inscreve o email do cliente no site,se nao aperecer o @ ele não aceitara.
+
+Date: É onde se arruma a data.
+
+Submit:permite enviar para a pasta no method GET action.
+
+Input type="radio" name=(tamanho) value =g Grande
+
+select: Caixa de texto para selecionar junto com o (option) que é a palavra chave que voce escolhe
+
+Checkbox parecido com o "radio" ele é uma caixa de assinalar e permite assinalar varias ao mesmo tempo.
+
+Textarea: Comentário ou uma caixa de texto para um comentario,critica etc.
+
+<label> ( Digite seu nome <label for="name">nome</label>).
+
+Placeholder (placeholder="Digite seu nome" size="50" maxlength="50">)( onde fica o espaço para digitar o nome,se quiser digita dentro ele fica escrito como digite seu nome)
+
+Fieldset ( serve para criar uma caixa ou linha enquadrando as palavras e tags que vao dentro dela)
+
+Option (escolher o que voce quer realizar,devirado de checkbox e selection.)
+
+
+iMAGENS : TAGS "Linkfavicon","ctrl+espaço","img".
+
+LINK: em cima do title do vsc + link favicon + ctrl + espaço para achar a favicon na pasta.
+
+IMG: ctrl+espaço para colocar uma imagem que esteja salva na pasta.
+
+SEMÂNTICA HTML5
+
+Principais formataçoes
+Negrito / destaque
+
+Nesta frase temos um em negrito usando a tecla  tag <b> só que não (tem semantica)
+
+Nesta frase temos um termo em destaque usando a tecla tag <strong> veja como ficou contém (semântica)
+Itálico / Enfase
+
+Nesta frase vamos usar o termo itálico  tag <>i (não semântica)
+
+Nesta frase vamos usar a tag <Em> no termo em destaque (semântica)
+
+Tag <q> usa-se para arrumar entre aspas ("")
+
+
+LINKS E ÂNCORAS:direcionamento a sites
+
+Tags:<a href="> (serve para arrumar o link do seu site.)
+
+Target="_blank" rel="external"> (Serve para abrir uma nova aba e não se sobrepor a este site.)
+
+Taget=self (Serve para sobrepor no mesmo site)
+
+Quando não existir o link que você clicar é só clicar com Ctrl+clik em cima que ele pergunta se você quer criar esse arquivo.
+
+Se a pagina do Estilo.css não estiver funcionando coloque no primeiro paragrafo a tag @charset "UTF-8";.(Para dar certo nas outras paginas.
+
+Tag:link:css"(direciona você para uma aba no visual,onde só é designer para as outras paginas.Sempre arrumar este link antes de head e body.
+
+AUDIO,Tags:Audio,controls,autoplay,preload,loop.
+
+<audio>:É usado para reproduzir audios ou musicas,com elevem o src"Aqui voce clica ctrl+espaço e seleciona seu audio.
+
+autoplay:Reproduz o audio sozinho.
+
+controls:aparecera em seu site.
+
+loop:reproduzira o audio novamente.
+
+VIDEO tags:
+
+Width="Tamanho do seu video
+
+Poster:coloca uma imagem no começo do video
+
+Tags de videos e audiospara outros navegadores:m4v,webm,mp4e ogv
+
+LISTAS:
+
+ol:lista ordenadas
+
+ul: listas nao ordenadas
+
+li:para arrumar os itens dentro da lista
+
+TIPOS DE IMAGENS OU IlUSTRAÇOES PARA LISTAS:
+
+type="disc",type="square",type="circle",type="type"a"
+
+
+
+           Introdução do CSS!
+  
+ <style> Relacionado!!
+
+GOOGLE FONTS COM <link> (RECOMENDADO)
+
+HTML (no <head>):
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+CSS:
+body {
+font-family: 'Roboto', sans-serif;
+}
+
+✔️ Vantagens: Rápido, fácil, grande acervo grátis
+❌ Desvantagens: Depende da internet do usuário
+
+GOOGLE FONTS COM @import
+
+CSS:
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap
+');
+
+body {
+font-family: 'Roboto', sans-serif;
+}
+
+✔️ Vantagens: Simples de colar no CSS
+❌ Desvantagens: Mais lento, não é recomendado
+
+@FONT-FACE (ARQUIVOS BAIXADOS)
+
+CSS:
+@font-face {
+font-family: 'MinhaFonte';
+src: url('fonts/minha-fonte.woff2') format('woff2'),
+url('fonts/minha-fonte.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+h1 {
+font-family: 'MinhaFonte', sans-serif;
+}
+
+✔️ Vantagens: Independe da internet, aceita qualquer fonte
+❌ Desvantagens: Precisa hospedar os arquivos, pode ser mais pesado
+
+FONTES LOCAIS DO SISTEMA
+
+CSS:
+body {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+✔️ Vantagens: Muito rápido, já disponível no PC
+❌ Desvantagens: Pouca variedade, pode mudar de um sistema para outro
+
+INSTALAR FONTES NO SISTEMA (WINDOWS / MAC / LINUX)
+
+Windows: botão direito no arquivo .ttf ou .otf → "Instalar"
+
+MacOS: abrir no Font Book e instalar
+
+Linux: copiar para ~/.fonts ou /usr/share/fonts
+
+✔️ Vantagens: Disponível em qualquer aplicativo do PC (Word, Photoshop etc.)
+❌ Desvantagens: Não serve para web diretamente
+
+margin:0
+padding:0
+
+São para ajustar os cantos do site para não ficar sobrando.
+
+RESPONSIVIDADE NO SITE:
+
+min-width:280px;
+max-width:800px;
+
+em imagens> img width: 100%;
+
+
+
+  <link rel="stylesheet" href="style.css"> (Link para criar a pasta de estilo fora da mesma,crtl+mouse esquerdo em cima de style.css" para criar o arquivo e abrir em outra aba.)
+
+ @charset "UTF-8"; (Para criar o charset padrão do site na nova aba estilo);
+
+ class="básico" (dentro do h1)(Serve para mudar a cor ou texto de um determinado titulo ou paragrafo,Na aba style coloca o .basico e abre { e fecha }
+
+ style="color: fuchsia;" (Esse código serve para mudar as cores dos títulos).Ex:h1e h2.
+
+ <body font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"> (Esse código serve para mudar as letra do site e a cor também).
+ 
+ style="text-align: justify;"> (Esse código é pra reorganizar os textos).
+
+ style="text-align: right;">(Esse serve para arrumar a frase ou titulo,paragrafo etc,a direita.)center colocar ele no centro).
+
+ Display: inline-block; (Colocar as frases em um unica linha ou paragrafo).
+
+ Border: 1px (Colocar borda).
+ 
+ height:Tamanho das letras ou bordas.
+
+ width:largura.
+
+ background-color: aqua; (Exemplo de cor,bakcground serve para mudar a cor do fundo.)
+
+ color: aqua; (Serve para mudar as letras em si.)
+
+ style="text-indent:30px; (serve para aumentar o paragráfo do começo do texto.)
+
+ font-size: 20px;">(Serve para mudar o tamanho das fontes da letras).
+ 
+ back-ground="color" (Para mudar toda a cor por tras de letras e paginas.
+
+ background image linear-gradient(to right, blue,white);(Mudar dentro do body e do style coloca cores no fundo da imagem).{to right,to left,botton e top,45deg e -45deg).
+
+ Width:(exemplo 600px).Serve para alinhar a largura tanto de parágrafos,titulos etc.
+
+ padding 10px,20px,30px.(Serve para alinhar a borda do texto)
+
+ margin: auto (serve quase igual o text align to center,para alinhar o texto ou titulo no centro do site).
+
+ { /* Configurações Globais das CSS */height 100% }
+
+ border-radius:10,20,5px.(Borda dos textos que estiver no <main>)
+
+ box-shadow:5px,10px,15px.(sombra na borda do texto <main>).
+
+ text-shadow:(sombra nas letras)
+ 
+FONTES:
+
+pt,px,cm: pt=pontos igual wordpress, Px=16px tamanho normal de um site.,cm=aumento e largura da fontes
+
+Criando um font-family: @font-face {
+        font-family: ;
+        src: url('Moodcake.ttf'); format ('truetype');
+        font-weight: normal;
+        font-style: normal;
+       }         
+  
+  Moodcake pegado da internet colado na pasta do index realizando no visual o ctrl+espaço em url para achar o arquivo.,Abrir o font-face do 'body' em 'style sempre!.Colocar o nome do font-family com '.' para funcionar.
+
+
+Tipos de formatos: 
+* opentype (otf)
+* truetype (ttf)
+* embedded-opentype
+* truetype-aat (Apple Advanced Typography)
+
+PSEUDOS CLASSES:
+
+# id
+. class
+: pseudo-class
+:: pseudo-element
+> clildren
+
+div:hover dentro da div (ele consegue mudar a cor ao passar o mouse em cima.)
+
+Esconder Paragrafo dentro da div:
+<div>                            div > p {display: none;} Usar o display none para esconder
+
+     Passe o mouse aqui      
+     <p>texto escondido</p> 
+</div>                            
+<style>
+div:hover > p {
+            display: block;
+            color: blueviolet;}   Usar o hover especificando o > p para ser o texto escondido
+<style>                           ali estamos usando a cor que ficara as letras.
+
+Para a outra palavra aparecer normal é só colocar o hover e a cor que,ao passar o mouse ele ja mudar.
+
+ACTIVE:
+a:active {
+
+        color: yellow;          (Quando clicar em um link ou imagem e segurar ele aparecera a cor escolhida)      
+
+VISITED:
+a:visited {
+
+        color: black            (Depois de visitar a pagina ou link,este anunciado ficara preto "black")
+
+     }
+
+CLASSES:
+Exemplo:Class="especial" (para colocar no style voce usara) ".especial {}
+
+ELEMENTOS:
+
+a::before,a::after (Esses elementos usados como exemplo o "a" de lin,usa 2 :: para funcionar)
+.especial::before,.especial::after.
+
+Conatiners: 
+ 
+Display: flex= .container {                                                             
+            display: flex;                    (Alinha em uma mesma linha)
+            flex-direction: column;           (Alinha em colunas) 
+            flex-direction: column-reverse;   (Alinha em colunas reversas)
+            flex-direction: row;              (Alinha em uma linha,se nao me engano igual o display: flex;)
+            flex-direction: row-reverse;}     (Alinha em em uma linha só que reverso)
+        
+Display:grid= .container {
+            display: grid; 
+            grid-template-columns: repeat(5,100px)  00px 50px 80px 200px; (Serve para fazer as colunas)
+            grid-template-rows:  50px) 100px 100px 100px;                 (Serve para para fazer linhas)
+            gap: 10px; }                                                  (Espaço entre elas,parecido com padding)
+
+.container {
+            display: flex;
+            justify-content: space-around;        (Adiciona espaço entre as colunas)
+            justify-content: baseline;            
+            justify-content: end;                 (Adiciona as colunas ao lado direito da tela)
+            justify-content: flex-start;          (Adicona as colunas ao começo lado esquerdo)
+            justify-content: space-between;       (Adicona espaço tambem)
+        }
+
+
+
+
+
+
+
+
+
+
+ 
+
+
